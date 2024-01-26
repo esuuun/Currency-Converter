@@ -6,11 +6,9 @@
 
 ###
 
-<h1 align="left">Tool</h1>
+<h1 align="left">Tech</h1>
 
 ###
-
-<p align="left">Tech that i used to make this project :</p>
 
 ###
 
