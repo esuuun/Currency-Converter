@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <h1>MONEY CONVERTER</h1>
+    <div class="card">
+      <img src="Assets/icons8-money-exchange-96.png" alt="money-icon" />
+      <div class="input-wrapper">
+        <div class="currency-wrapper">
+          <select name="" id="currency-one">
+            <option value="USD">USD</option>
+            <option value="IDR" selected>IDR</option>
+            <option value="JPY">JPY</option>
+            <option value="BTC">BTC</option>
+          </select>
+          <input type="number" id="currency-one-number" placeholder="0" />
+        </div>
+        <button id="convert-button">CONVERT</button>
+        <div class="currency-wrapper">
+          <select name="" id="currency-two">
+            <option value="USD" selected>USD</option>
+            <option value="IDR">IDR</option>
+            <option value="JPY">JPY</option>
+          </select>
+          <input
+            type="number"
+            id="currency-two-number"
+            placeholder="0"
+            readonly
+          />
+        </div>
+      </div>
+      <p>* tanda titik (".") merupakan koma (",")</p>
+    </div>
+    <footer>Made by M. Ikhsan Kurniawan</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
